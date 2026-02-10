@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aquamarine;
+}
+.heading {
+    background-color: aqua;
+    text-align: center;
+    height: 70px;
+    line-height: 2.5;
+}
+.container{
+    border: 2px solid greenyellow;
+    height:600px;
+    width: 500px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow:;
+}
