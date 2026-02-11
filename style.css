@@ -2,21 +2,38 @@
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 .heading {
-    background-color: aqua;
-    text-align: center;
     height: 70px;
     line-height: 2.5;
 }
-.container{
+
+.container {
     border: 2px solid greenyellow;
-    height:600px;
+    height: 600px;
     width: 500px;
     margin: 20px;
     text-align: center;
     border-radius: 50px;
-    box-shadow:;
+    box-shadow: 00px 0px 10px 15px rgba(0, 0, 0, 0.2)
+}
+
+.inputnumber {
+    width: 450px;
+    height: 200px;
+    border-radius: 50px 50px 0px 0px;
+    margin-top: 20px;
+    box-shadow: -4px -2px 8px 0px rgba(0, 0, 0, 0.2)
+}
+
+hr {
+    margin-top: 5px;
 }
